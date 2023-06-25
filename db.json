@@ -1,0 +1,85 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Product1",
+      "price": 1200,
+      "description": "Product1 desc"
+    },
+    {
+      "id": 2,
+      "title": "Product2",
+      "price": 2100,
+      "description": "Product2 desc"
+    },
+    {
+      "id": 3,
+      "title": "Product3",
+      "price": 3000,
+      "description": "Product3 desc"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "category": "sports",
+      "name": "cricket",
+      "desc": "cricket description"
+    },
+    {
+      "id": 2,
+      "category": "politics",
+      "name": "politics",
+      "desc": "politics description"
+    },
+    {
+      "id": 3,
+      "category": "sports",
+      "name": "hockey",
+      "desc": "hockey description"
+    }
+  ],
+  "dashboard": {
+    "likes": 120,
+    "followers": 150,
+    "following": 200,
+    "subscribe": 250
+  },
+  "events": [
+    {
+      "id": 1,
+      "name": "Event 1",
+      "description": "Event 1 Description",
+      "category": "sports",
+      "date": "1nd april"
+    },
+    {
+        "id": 2,
+        "name": "Event 2",
+        "description": "Event 2 Description",
+        "category": "technology",
+        "date": "2nd april"
+      },
+      {
+        "id": 3,
+        "name": "Event 3",
+        "description": "Event 3 Description",
+        "category": "food",
+        "date": "3nd april"
+      },
+      {
+        "id": 4,
+        "name": "Event 4",
+        "description": "Event 4 Description",
+        "category": "sports",
+        "date": "4nd april"
+      },
+      {
+        "id": 5,
+        "name": "Event 5",
+        "description": "Event 5 Description",
+        "category": "sports",
+        "date": "5nd april"
+      }
+  ]
+}

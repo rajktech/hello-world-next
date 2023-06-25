@@ -1,0 +1,17 @@
+.header-layout {
+    background-color: grey;
+    padding: 50px;
+    color: white;
+}
+
+.footer-layout {
+    background-color: grey;
+    padding: 50px;
+    color: white;
+}
+
+.middle-layout {
+    font-family: Verdana;
+    padding: 20px;
+    font-size: 20px;
+}

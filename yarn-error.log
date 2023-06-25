@@ -1,0 +1,62 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add swr
+
+PATH: 
+  /usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  17.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.intuit.com/@types%2fnode: Request "https://registry.npmjs.intuit.com/@types%2fnode" returned a 403
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:66997:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:140749:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141721:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141643:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "hello-world",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint",
+      "serve-json": "json-server --watch db.json --port 4000"
+    },
+    "dependencies": {
+      "@types/node": "20.1.4",
+      "@types/react": "18.2.6",
+      "@types/react-dom": "18.2.4",
+      "autoprefixer": "10.4.14",
+      "eslint": "8.40.0",
+      "eslint-config-next": "13.4.2",
+      "json-server": "^0.17.3",
+      "next": "13.4.2",
+      "postcss": "8.4.23",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "tailwindcss": "3.3.2",
+      "typescript": "5.0.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
